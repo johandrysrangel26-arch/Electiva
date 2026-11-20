@@ -1,0 +1,43 @@
+:root {
+    --fuente-titulo: 'Impact', 'Arial Black', sans-serif;
+    --fuente-parrafo: 'Verdana', 'Trebuchet MS', sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fuente-parrafo);
+    color: #1cff15; /* Corregido: tenía un doble ## */
+    background-color: #1e2229; /* Opcional: un fondo oscuro para que resalte ese color de texto verde neón */
+    margin: 0;
+    padding: 10px;
+    line-height: 1.6;
+}
+
+h1 {
+    font-family: var(--fuente-titulo);
+}
+
+.mi-cuadro {
+    /* 1. Márgenes exteriores */
+    margin: 20px auto; 
+    padding: 20px; /* Espacio interior entre el texto y el borde */
+
+    /* 2. El cuadro con bordes */
+    border: 3px solid #b0ff95cd; 
+    border-radius: 10px; 
+    background-color: #f9f9f9; 
+
+    /* 3. Color 
+    color: #333333; 
+    font-size: 16px; 
+    font-family: var(--fuente-parrafo);
+}
+
+img { 
+    width: 290px;
+    height: 190px;
+    border-radius: 8px;
+}
